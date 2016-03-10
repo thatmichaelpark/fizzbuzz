@@ -3,7 +3,7 @@
 $(document).ready(function () {
 
 	function print(a) {
-		$('body').append(a + '<br>');
+		$('body').append(a + '<br/>');
 	}
 
 	function FizzBuzz(limit) {
